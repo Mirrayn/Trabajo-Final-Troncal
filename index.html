@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Acreditación y Arancel</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Georama:ital,wght@0,100..900;1,100..900&family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet"/>
+    <link href="style.css" rel="stylesheet"/>
+    </head>
+    <body>
+        <nav>
+            <div>
+                <span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clipboard-fill" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M10 1.5a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5zm-5 0A1.5 1.5 0 0 1 6.5 0h3A1.5 1.5 0 0 1 11 1.5v1A1.5 1.5 0 0 1 9.5 4h-3A1.5 1.5 0 0 1 5 2.5zm-2 0h1v1A2.5 2.5 0 0 0 6.5 5h3A2.5 2.5 0 0 0 12 2.5v-1h1a2 2 0 0 1 2 2V14a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V3.5a2 2 0 0 1 2-2"/>
+                    </svg>
+                    Diseño Universidad de Chile
+                </span>
+
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5" />
+                </svg>
+            </div>
+        </nav>
+        
+        <header>
+            <img src="imagen.png"/>
+            <h3>DISEÑO EN LA UNIVERSIDAD DE CHILE</h3>
+            <h1>Proyectos de titulo y electivos ofertados</h1>
+            <h2>Análisis comparativo para comprobar la función de los electivos ofertados en los temas de los proyectos de título</h2>
+            <address>Por <a href="#">Maitte Urrutia, Mirrayn Tapia, Balma Ayala</a>, <a href="#">Gastón Meneses</a> y <a href="#">Felipe Cortez</a></address>
+            <time>Publicado el 26 de mayo, 2026 06:00 p.m. GMT-4</time>
+        </header>
+
+        <main id="contenedor">
+
+            <p>En Chile, <a href="https://bcn.cl/2ewsw" target="_blank">la ley</a> obliga a acreditarse a las instituciones de educación superior. Carreras, entre las que se cuentan las de Diseño, quedan exentas de esta obligatoriedad.</p>
+
+            <p>Cada acreditación obligatoria e institucional evalúa el cumplimiento del proyecto corporativo y verifica la existencia de mecanismos eficaces de autorregulación y de aseguramiento de la calidad. A partir del resultado de cada evaluación, la <a href="https://www.cnachile.cl/Paginas/Acreditacion-institucional.aspx">Comisión Nacional de Acreditación (<small>CNA</small>)</a> determina el plazo para la próxima, con tres niveles de cumplimiento:</p>
+
+            <ul>
+                <li><em>Acreditada en nivel de excelencia:</em> de 6 a 7 años.</li>
+                <li><em>Acreditada en nivel avanzado:</em> de 4 a 5 años.</li>
+                <li><em>Acreditada en nivel básico:</em> 3 años.</li>
+            </ul>
+
+            <p>Por acotar, podemos <em>revisar las acreditaciones de las universidades</em>, que son las instituciones responsables de ofrecer el 35,82% de las vacantes totales de la educación superior para carreras de Diseño en 2026 (2.717 cupos del total de 7.586, según registros del <a href="https://www.mifuturo.cl/bases-de-datos-de-oferta-academica/" target="_blank">Servicio de Información de Educación Superior, <small>SIES</small></a>).</p>
+
+            <p>Revisando estas acreditaciones, podemos encontrar plazos de acreditación que oscilan entre los 3 y los 7 años.
+            </p>
+
+            <h4>¿La cantidad de electivos ofertados esta bien distribuida por tematica?</h4>
+
+            <p>En el siguiente gráfico podemos ver la respuesta.</p>
+
+            <figure>
+                <canvas id="dispersion"></canvas>
+                <figcaption>
+                    Grupos temáticos y asignaciones de electivos de diseño. Datos obtendidos del 
+                    <a href="https://uchile.cl/" target="_blank">Catálogo de Cursos de la Universidad de Chile</a>, 
+                    correspondiente a la oferta oficial de la Facultad de Arquitectura y Urbanismo (FAU).
+                </figcaption>
+            </figure>
+
+            <p>Con el objetivo de identificar patrones y coherencias dentro de la oferta académica, los datos analizados en la asignatura de <em>Diseño y visualización de información</em> permitieron realizar un proceso de síntesis categórica. A partir de los dieciocho subgrupos iniciales de asignaciones, se estructuró una matriz de afinidad conceptual para agrupar los contenidos en áreas transversales más densas y legibles.</p>
+
+            <p>Este ejercicio de reducción temática dio origen a un gráfico que articula las asignaturas bajo grandes áreas lógicas dominantes. La reorganización no solo optimiza la legibilidad visual de la actual oferta de electivos, sino que establece la base analítica necesaria para la siguiente etapa del estudio: cruzar y comparar la concentración de estas temáticas formativas con la distribución real de las temáticas elegidas por los estudiantes en sus proyectos de título.</p>
+
+            <h4>Reducción y sintesis de áreas</h4>
+
+            <div style="width: 100%; max-width: 800px; margin: 2.5rem auto; text-align: center;">
+             <img src="viz.svg" alt="Diagrama de Aluvión - Fusión de Electivos" style="width: 100%; height: auto; display: block;">
+        </div>
+
+            <h4>distribución de electivos de diseño</h4>
+
+            <figure>
+                <canvas id="otro"></canvas>
+                <figcaption>
+                    Grupos temáticos y asignaciones de electivos de diseño. Datos obtendidos del 
+                    <a href="https://uchile.cl/" target="_blank">Catálogo de Cursos de la Universidad de Chile</a>, 
+                    correspondiente a la oferta oficial de la Facultad de Arquitectura y Urbanismo (FAU).a>.
+                </figcaption>
+            </figure>
+
+            <p>Con el objetivo de identificar patrones y coherencias dentro de la oferta académica, los conocimientos adquiridos en las asignaturas de <em>Diseño y visualización de información</em> permitieron realizar un proceso de síntesis categórica. A partir de la dispersión de los dieciocho subgrupos iniciales de asignaciones, se estructuró una matriz de afinidad conceptual para agrupar las asignaturas en áreas transversales más densas y legibles.</p>
+
+            <p>Este ejercicio de reducción temática dio origen a un gráfico que organiza los electivos bajo grandes áreas lógicas dominantes, disminuyendo de forma drástica la sobrecarga cognitiva de la lectura original. Al distribuir el volumen de la oferta en estos macro-grupos, la arquitectura de la visualización se vuelve considerablemente más clara y directa, permitiendo entender de inmediato dónde se concentran las prioridades formativas de las asignaturas.</p>
+
+            <h4>¿Existirá alguna correlación entre los electivos ofertados y las decisiones de los estudiantes?</h4>
+
+            <div style="position: relative; margin: 2rem 0; height: 40vh;">
+                <canvas id="barras"></canvas>
+            </div>
+            <h4>Segunda visualización, cantidad de proyectos de titulo relacionados a cada grupo tematico</h4>
+            <div style="width: 100%; max-width: 800px; margin: 2.5rem auto; text-align: center;">
+             <img src="viz2.svg" alt="Empaquetamiento de Círculos - Proyectos por Macro-Área" style="width: 100%; height: auto; display: block;">
+            </div>
+            <h5>Fuentes</h5>
+            <p>Nombre; Nombre; Nombre</p>
+        </main>
+        <div class="contenedor-catalogo">
+
+    <div class="contenedor-catalogo">
+    <h4 style="margin-top: 4rem;">Catálogo Histórico de Proyectos de Título</h4>
+    <p>Listado dinámico de los 334 proyectos finales de titulación, clasificados sistemáticamente bajo la estructura de los 6 macro-grupos disciplinares.</p>
+
+    <div id="contenedor-tabla-electivos" style="margin: 2rem 0;">
+        <input type="text" id="elInputElectivos" placeholder="Buscar por proyecto, autor, resumen, mención o grupo temático..." style="width: 100%; padding: 0.6rem 1.2rem; font-family: var(--sans); font-size: 0.95rem; border: 1px solid var(--border); border-radius: 4px; outline: none; margin-bottom: 1.5rem;" />
+        
+        <table id="tabla-proyectos">
+            <thead>
+                <tr>
+                    <th style="width: 25%;">Macro-Grupo Temático</th>
+                    <th style="width: 50%;">Proyecto y Resumen</th>
+                    <th style="width: 25%;">Autor y Mención</th>
+                </tr>
+            </thead>
+            <tbody id="tabla-proyectos-body">
+                </tbody>
+        </table>
+    </div>
+</div>
+
+        <footer>
+            <div>
+                <a href="https://www.reuters.com/graphics/IRAN-CRISIS/OIL-CONSUMERS/akpeyynmypr/" target="_blank"
+                    >Inspirado en Reuters</a
+                >
+                <a href="https://github.com/profesorfaco/troncal">Diseño y visualización de información</a>
+            </div>
+        </footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+        <script src="script.js"></script>
+    </body>
+</html>

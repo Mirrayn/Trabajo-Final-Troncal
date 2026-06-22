@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 786.09 605.29">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke: #e8d2e8;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7 {
+        fill: none;
+        stroke-width: 27.5px;
+      }
+
+      .cls-8 {
+        fill: #d6ae00;
+      }
+
+      .cls-9 {
+        letter-spacing: -.06em;
+      }
+
+      .cls-10 {
+        letter-spacing: -.07em;
+      }
+
+      .cls-11 {
+        fill: #bf5b4f;
+      }
+
+      .cls-12, .cls-13, .cls-14 {
+        isolation: isolate;
+      }
+
+      .cls-2 {
+        stroke: #f28d6c;
+      }
+
+      .cls-15 {
+        fill: #5a5a59;
+      }
+
+      .cls-16 {
+        fill: #238399;
+      }
+
+      .cls-17 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-18 {
+        fill: #b88ca8;
+      }
+
+      .cls-3 {
+        stroke: #ccc;
+      }
+
+      .cls-19 {
+        fill: #aab534;
+      }
+
+      .cls-20 {
+        mix-blend-mode: multiply;
+      }
+
+      .cls-21 {
+        letter-spacing: .02em;
+      }
+
+      .cls-4 {
+        stroke: #c8d974;
+      }
+
+      .cls-5 {
+        stroke: #acdbe5;
+      }
+
+      .cls-6 {
+        stroke: #dadada;
+      }
+
+      .cls-13 {
+        fill: #1d1d1b;
+        font-family: Arial-Black, Arial;
+        font-size: 12px;
+        font-weight: 800;
+      }
+
+      .cls-22 {
+        letter-spacing: -.04em;
+      }
+
+      .cls-14 {
+        font-family: Arial-BoldMT, Arial;
+        font-size: 10px;
+        font-weight: 700;
+      }
+
+      .cls-7 {
+        stroke: #ecc949;
+      }
+    </style>
+  </defs>
+  <g class="cls-12">
+    <g id="Capa_1" data-name="Capa 1">
+      <g id="visualization">
+        <g>
+          <rect class="cls-15" y="25.29" width="5" height="27.5"/>
+          <rect class="cls-15" y="57.79" width="5" height="27.5"/>
+          <rect class="cls-15" y="90.29" width="5" height="27.5"/>
+          <rect class="cls-19" y="122.79" width="5" height="27.5"/>
+          <rect class="cls-19" y="155.29" width="5" height="27.5"/>
+          <rect class="cls-19" y="187.79" width="5" height="27.5"/>
+          <rect class="cls-16" y="220.29" width="5" height="27.5"/>
+          <rect class="cls-16" y="252.79" width="5" height="27.5"/>
+          <rect class="cls-16" y="285.29" width="5" height="27.5"/>
+          <rect class="cls-18" y="317.79" width="5" height="27.5"/>
+          <rect class="cls-18" y="350.29" width="5" height="27.5"/>
+          <rect class="cls-18" y="382.79" width="5" height="27.5"/>
+          <rect class="cls-11" y="415.29" width="5" height="27.5"/>
+          <rect class="cls-11" y="447.79" width="5" height="27.5"/>
+          <rect class="cls-8" y="480.29" width="5" height="27.5"/>
+          <rect class="cls-8" y="512.79" width="5" height="27.5"/>
+          <rect class="cls-8" y="545.29" width="5" height="27.5"/>
+          <rect class="cls-8" y="577.79" width="5" height="27.5"/>
+          <rect class="cls-11" x="780" y="55.29" width="5" height="55"/>
+          <rect class="cls-15" x="780" y="115.29" width="5" height="82.5"/>
+          <rect class="cls-19" x="780" y="202.79" width="5" height="82.5"/>
+          <rect class="cls-16" x="780" y="290.29" width="5" height="82.5"/>
+          <rect class="cls-18" x="780" y="377.79" width="5" height="82.5"/>
+          <rect class="cls-8" x="780" y="465.29" width="5" height="110"/>
+        </g>
+        <g>
+          <g class="cls-20">
+            <path class="cls-3" d="M5,39.04c387.5,0,387.5,90,775,90"/>
+          </g>
+          <g class="cls-20">
+            <path class="cls-3" d="M5,71.54c387.5,0,387.5,85,775,85"/>
+          </g>
+          <g class="cls-20">
+            <path class="cls-6" d="M5,104.04c387.5,0,387.5,80,775,80"/>
+          </g>
+          <g class="cls-20">
+            <path class="cls-4" d="M5,136.54c387.5,0,387.5,80,775,80"/>
+          </g>
+          <g class="cls-20">
+            <path class="cls-4" d="M5,169.04c387.5,0,387.5,75,775,75"/>
+          </g>
+          <g class="cls-20">
+            <path class="cls-4" d="M5,201.54c387.5,0,387.5,70,775,70"/>
+          </g>
+          <g class="cls-20">
+            <path class="cls-5" d="M5,234.04c387.5,0,387.5,70,775,70"/>
+          </g>
+          <g class="cls-20">
+            <path class="cls-5" d="M5,266.54c387.5,0,387.5,65,775,65"/>
+          </g>
+          <g class="cls-20">
+            <path class="cls-5" d="M5,299.04c387.5,0,387.5,60,775,60"/>
+          </g>
+          <g class="cls-20">
+            <path class="cls-1" d="M5,331.54c387.5,0,387.5,60,775,60"/>
+          </g>
+          <g class="cls-20">
+            <path class="cls-1" d="M5,364.04c387.5,0,387.5,55,775,55"/>
+          </g>
+          <g class="cls-20">
+            <path class="cls-1" d="M5,396.54c387.5,0,387.5,50,775,50"/>
+          </g>
+          <g class="cls-20">
+            <path class="cls-2" d="M5,429.04c387.5,0,387.5-360,775-360"/>
+          </g>
+          <g class="cls-20">
+            <path class="cls-2" d="M5,461.54c387.5,0,387.5-365,775-365"/>
+          </g>
+          <g class="cls-20">
+            <path class="cls-7" d="M5,494.04c387.5,0,387.5-15,775-15"/>
+          </g>
+          <g class="cls-20">
+            <path class="cls-7" d="M5,526.54c387.5,0,387.5-20,775-20"/>
+          </g>
+          <g class="cls-20">
+            <path class="cls-7" d="M5,559.04c387.5,0,387.5-25,775-25"/>
+          </g>
+          <g class="cls-20">
+            <path class="cls-7" d="M5,591.54c387.5,0,387.5-30,775-30"/>
+          </g>
+        </g>
+        <g>
+          <g class="cls-12">
+            <text class="cls-14" transform="translate(9 38.53)"><tspan class="cls-10" x="0" y="0">T</tspan><tspan x="5.37" y="0">erritorio Ciudadanía y Hábitat Sostenible</tspan></text>
+          </g>
+          <g class="cls-12">
+            <text class="cls-14" transform="translate(9 71.03)"><tspan x="0" y="0">Patrimonio Cultura y Pensamiento Crítico</tspan></text>
+          </g>
+          <g class="cls-12">
+            <text class="cls-14" transform="translate(9 103.53)"><tspan x="0" y="0">Cultura </tspan><tspan class="cls-17" x="37.78" y="0">V</tspan><tspan x="44.27" y="0">isual Patrimonio e Identidad</tspan></text>
+          </g>
+          <g class="cls-12">
+            <text class="cls-14" transform="translate(9 136.03)"><tspan x="0" y="0">Ciencia de Materiales y Ciclo de </tspan><tspan class="cls-17" x="154.51" y="0">V</tspan><tspan x="161" y="0">ida</tspan></text>
+          </g>
+          <g class="cls-12">
+            <text class="cls-14" transform="translate(9 168.53)"><tspan x="0" y="0">Sostenibilidad Economía Circular y Upcycling</tspan></text>
+          </g>
+          <g class="cls-12">
+            <text class="cls-14" transform="translate(9 201.03)"><tspan x="0" y="0">Oficios Técnicas</tspan><tspan class="cls-22" x="79.48" y="0"> </tspan><tspan x="81.88" y="0">Artesanales y Patrimonio</tspan></text>
+          </g>
+          <g class="cls-12">
+            <text class="cls-14" transform="translate(9 233.53)"><tspan class="cls-10" x="0" y="0">T</tspan><tspan x="5.37" y="0">ecnología</tspan><tspan class="cls-22" x="52.04" y="0"> </tspan><tspan x="54.45" y="0">Aplicada Proyectos y Nuevos Medios</tspan></text>
+          </g>
+          <g class="cls-12">
+            <text class="cls-14" transform="translate(9 266.03)"><tspan x="0" y="0">Fabricación</tspan><tspan class="cls-22" x="56.13" y="0" xml:space="preserve"> A</tspan><tspan x="65.39" y="0">vanzada y </tspan><tspan class="cls-10" x="115.97" y="0">T</tspan><tspan x="121.33" y="0">ecnologías Digitales</tspan></text>
+          </g>
+          <g class="cls-12">
+            <text class="cls-14" transform="translate(9 298.53)"><tspan x="0" y="0">Biomecánica Ergonomía y Sistemas Estructurales</tspan></text>
+          </g>
+          <g class="cls-12">
+            <text class="cls-14" transform="translate(9 331.03)"><tspan x="0" y="0">Morfología Percepción y Lenguajes </tspan><tspan class="cls-17" x="171.15" y="0">V</tspan><tspan x="177.64" y="0">isuales</tspan></text>
+          </g>
+          <g class="cls-12">
+            <text class="cls-14" transform="translate(9 363.53)"><tspan x="0" y="0">Narrativa </tspan><tspan class="cls-17" x="46.14" y="0">V</tspan><tspan x="52.63" y="0">isual Ilustración y</tspan><tspan class="cls-22" x="137.1" y="0"> </tspan><tspan x="139.51" y="0">Animación</tspan></text>
+          </g>
+          <g class="cls-12">
+            <text class="cls-14" transform="translate(9 396.03)"><tspan x="0" y="0">Diseño Editorial </tspan><tspan class="cls-17" x="78.9" y="0">T</tspan><tspan x="84.83" y="0">ipografía y Discurso</tspan></text>
+          </g>
+          <g class="cls-12">
+            <text class="cls-14" transform="translate(9 428.53)"><tspan x="0" y="0">Diseño de Productos Servicios y Experiencias</tspan></text>
+          </g>
+          <g class="cls-12">
+            <text class="cls-14" transform="translate(9 461.03)"><tspan x="0" y="0">Interacción Código y Experiencia Digital (UX/UI)</tspan></text>
+          </g>
+          <g class="cls-12">
+            <text class="cls-14" transform="translate(9 493.53)"><tspan x="0" y="0">Innovación Social y Procesos Participativos</tspan></text>
+          </g>
+          <g class="cls-12">
+            <text class="cls-14" transform="translate(9 526.03)"><tspan x="0" y="0">Estrategia Gestión y </tspan><tspan class="cls-9" x="99.48" y="0">V</tspan><tspan x="105.6" y="0">alor Económico</tspan></text>
+          </g>
+          <g class="cls-12">
+            <text class="cls-14" transform="translate(9 558.53)"><tspan x="0" y="0">Comunicación Estratégica Datos y Fotografía</tspan></text>
+          </g>
+          <g class="cls-12">
+            <text class="cls-14" transform="translate(9 591.03)"><tspan x="0" y="0">Pensamiento Crítico e Investigación Proyectual</tspan></text>
+          </g>
+          <g class="cls-12">
+            <text class="cls-14" transform="translate(660.97 79.64)"><tspan x="0" y="0">Experiencia de Usuario</tspan><tspan x="12.8" y="12" xml:space="preserve"> e Interacción Digital</tspan></text>
+          </g>
+          <g class="cls-12">
+            <text class="cls-14" transform="translate(665 156.54)"><tspan class="cls-10" x="0" y="0">T</tspan><tspan x="5.37" y="0">erritorio Patrimonio y </tspan><tspan x="19.79" y="12">Memorias Sociales</tspan></text>
+          </g>
+          <g class="cls-12">
+            <text class="cls-14" transform="translate(633.66 244.04)"><tspan x="0" y="0">Ciencia de Materiales Oficios </tspan><tspan x="37.25" y="12">y Producción Circular</tspan></text>
+          </g>
+          <g class="cls-12">
+            <text class="cls-14" transform="translate(667.68 325.84)"><tspan x="0" y="0">Fabricación</tspan><tspan class="cls-22" x="56.13" y="0" xml:space="preserve"> A</tspan><tspan x="65.39" y="0">vanzada </tspan><tspan class="cls-10" x="-16.67" y="12">T</tspan><tspan x="-11.3" y="12">ecnologías y Estructuras</tspan></text>
+          </g>
+          <g class="cls-12">
+            <text class="cls-14" transform="translate(672.4 410.3)"><tspan x="0" y="0">Comunicación </tspan><tspan class="cls-17" x="71.67" y="0">V</tspan><tspan x="78.16" y="0">isual </tspan><tspan x=".9" y="12">Discurso y Narrativas</tspan></text>
+          </g>
+          <g class="cls-12">
+            <text class="cls-14" transform="translate(676.65 512.79)"><tspan x="0" y="0">Estrategia Gestión y </tspan><tspan x="-26.67" y="12">Pensamiento Investigativo</tspan></text>
+          </g>
+        </g>
+        <g>
+          <text class="cls-13" transform="translate(2.5 10.29)"><tspan x="0" y="0">Asignacion Original</tspan></text>
+          <text class="cls-13" transform="translate(681.88 15.29)"><tspan x="0" y="0">Fusión de á</tspan><tspan class="cls-21" x="75.36" y="0">r</tspan><tspan x="80.88" y="0">eas</tspan></text>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
