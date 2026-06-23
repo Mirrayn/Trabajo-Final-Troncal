@@ -41,7 +41,7 @@ new Chart(document.getElementById("dispersion"), {
     },
     options: {
         responsive: true,
-        maintainAspectRatio: false, // <-- CAMBIO CRUCIAL: Permite adoptar los 800px del CSS
+        maintainAspectRatio: false, 
         indexAxis: 'y', 
         scales: {
             x: {
@@ -50,7 +50,7 @@ new Chart(document.getElementById("dispersion"), {
             },
             y: {
                 ticks: { 
-                    autoSkip: false, // <-- CAMBIO CRUCIAL: Fuerza a Chart.js a renderizar todos los nombres sin omitir ninguno
+                    autoSkip: false, // 
                     font: { family: "'Georama', sans-serif", size: 11 } 
                 }
             }
