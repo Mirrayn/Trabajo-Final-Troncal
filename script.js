@@ -29,30 +29,19 @@ new Chart(document.getElementById("dispersion"), {
                 [0, 9], [0, 7],  [0, 6], [0, 9], [0, 6], [0, 7]
             ], 
             backgroundColor: [
-                "rgba(241, 142, 45, 0.75)",
-                "rgba(54, 162, 235, 0.75)",
-                "rgba(255, 206, 86, 0.75)",
-                "rgba(75, 192, 192, 0.75)",
-                "rgba(153, 102, 255, 0.75)",
-                "rgba(255, 159, 64, 0.75)",
-                "rgba(201, 203, 207, 0.75)",
-                "rgba(233, 30, 99, 0.75)",
-                "rgba(0, 150, 136, 0.75)",
-                "rgba(139, 195, 74, 0.75)",
-                "rgba(63, 81, 181, 0.75)",
-                "rgba(255, 87, 34, 0.75)",
-                "rgba(121, 85, 72, 0.75)",
-                "rgba(158, 158, 158, 0.75)",
-                "rgba(96, 125, 139, 0.75)",
-                "rgba(33, 150, 243, 0.75)",
-                "rgba(255, 235, 59, 0.75)",
-                "rgba(103, 58, 183, 0.75)"
+                "rgba(241, 142, 45, 0.75)", "rgba(54, 162, 235, 0.75)", "rgba(255, 206, 86, 0.75)",
+                "rgba(75, 192, 192, 0.75)", "rgba(153, 102, 255, 0.75)", "rgba(255, 159, 64, 0.75)",
+                "rgba(201, 203, 207, 0.75)", "rgba(233, 30, 99, 0.75)", "rgba(0, 150, 136, 0.75)",
+                "rgba(139, 195, 74, 0.75)", "rgba(63, 81, 181, 0.75)", "rgba(255, 87, 34, 0.75)",
+                "rgba(121, 85, 72, 0.75)", "rgba(158, 158, 158, 0.75)", "rgba(96, 125, 139, 0.75)",
+                "rgba(33, 150, 243, 0.75)", "rgba(255, 235, 59, 0.75)", "rgba(103, 58, 183, 0.75)"
             ],
             borderWidth: 1
         }]
     },
     options: {
         responsive: true,
+        maintainAspectRatio: false, // <-- CAMBIO CRUCIAL: Permite adoptar los 800px del CSS
         indexAxis: 'y', 
         scales: {
             x: {
@@ -60,14 +49,17 @@ new Chart(document.getElementById("dispersion"), {
                 ticks: { font: { family: "'Georama', sans-serif", size: 11 } }
             },
             y: {
-                ticks: { font: { family: "'Georama', sans-serif", size: 11 } }
+                ticks: { 
+                    autoSkip: false, // <-- CAMBIO CRUCIAL: Fuerza a Chart.js a renderizar todos los nombres sin omitir ninguno
+                    font: { family: "'Georama', sans-serif", size: 11 } 
+                }
             }
         },
         plugins: {
             legend: {
                 position: 'top',
                 labels: { font: { family: "'Georama', sans-serif", size: 11 } }
-              },
+            },
             title: {
                 display: true,
                 text: 'Distribución Original de Asignaciones (Total: 148 Electivos)',
