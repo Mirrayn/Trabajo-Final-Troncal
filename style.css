@@ -323,3 +323,9 @@ table th, table td {
 table tbody tr:hover {
     background-color: rgba(0, 0, 0, 0.015);
 }
+#dispersionContainer {
+    position: relative;
+    width: 100%;
+    height: 800px; /* Fuerza el estiramiento vertical */
+    margin: 2rem auto;
+}
