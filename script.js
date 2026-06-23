@@ -39,9 +39,10 @@ new Chart(document.getElementById("dispersion"), {
             borderWidth: 1
         }]
     },
-    options: {
+options: {
         responsive: true,
         maintainAspectRatio: false, 
+        aspectRatio: false,         
         indexAxis: 'y', 
         scales: {
             x: {
