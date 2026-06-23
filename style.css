@@ -326,6 +326,10 @@ table tbody tr:hover {
 #dispersionContainer {
     position: relative;
     width: 100%;
-    height: 800px; /* Fuerza el estiramiento vertical */
+    height: 800px; 
     margin: 2rem auto;
+}
+#dispersionContainer canvas {
+    width: 100% !important;
+    height: 100% !important;
 }
