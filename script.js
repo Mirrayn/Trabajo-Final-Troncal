@@ -95,73 +95,33 @@ new Chart(document.getElementById("dispersion"), {
 });
 
 
-new Chart(document.getElementById("otro"), {
-    type: 'doughnut',
-    data: {
-        labels: [
-            "Territorio, Patrimonio y Memorias Sociales ",
-            "Ciencia de Materiales, Oficios y Producción Circular ",
-            "Fabricación Avanzada, Tecnologías y Estructuras ",
-            "Comunicación Visual, Discurso y Narrativas ",
-            "Experiencia de Usuario e Interacción Digital ",
-            "Estrategia, Gestión y Pensamiento Investigativo "
-        ],
-        datasets: [{
-            label: 'Cantidad de Electivos',
-            data: [25, 24, 24, 23, 18, 32], 
-            backgroundColor: [
-                "rgba(241, 142, 45, 0.75)",  
-                "rgba(54, 162, 235, 0.75)",
-                "rgba(255, 206, 86, 0.75)",
-                "rgba(75, 192, 192, 0.75)",
-                "rgba(153, 102, 255, 0.75)",
-                "rgba(156, 39, 176, 0.75)"
-            ],
-            borderWidth: 1
-        }]
-    },
-    options: {
-        responsive: true,
-        plugins: {
-            legend: {
-                position: 'top',
-                labels: {
-                    font: { family: "'Georama', sans-serif", size: 11 }
-                }
-            },
-            title: {
-                display: true,
-                text: 'Distribución de Electivos en Grandes Áreas Lógicas',
-                font: { family: "'Georama', sans-serif", size: 14, weight: "600" }
-            }
-        }
-    }
-});
-
 new Chart(document.getElementById("barras"), {
     type: 'bar',
     data: {
         labels: [
-            "Territorio Patrimonio y Memorias Sociales",
-            "Ciencia de Materiales Oficios y Producción Circular",
-            "Fabricación Avanzada Tecnologías y Estructuras",
-            "Comunicación Visual Discurso y Narrativas",
+            "Territorio, Patrimonio y Memorias Sociales",
+            "Ciencia de Materiales, Oficios y Producción Circular",
+            "Fabricación Avanzada, Tecnologías y Estructuras",
+            "Comunicación Visual, Discurso y Narrativas",
             "Experiencia de Usuario e Interacción Digital",
-            "Estrategia Gestión y Pensamiento Investigativo"
+            "Estrategia, Gestión y Pensamiento Investigativo"
         ],
-        datasets: [{
-            label: 'Cantidad de Proyectos',
-            data: [61, 23, 87, 101, 13, 49], 
-            backgroundColor: [
-                "rgba(241, 142, 45, 0.75)",  
-                "rgba(54, 162, 235, 0.75)",
-                "rgba(255, 206, 86, 0.75)",
-                "rgba(75, 192, 192, 0.75)",
-                "rgba(153, 102, 255, 0.75)",
-                "rgba(156, 39, 176, 0.75)"
-            ],
-            borderWidth: 1
-        }]
+        datasets: [
+            {
+                label: 'Cantidad de Electivos',
+                data: [25, 24, 24, 23, 18, 32], 
+                backgroundColor: "rgba(54, 162, 235, 0.75)", // Color Azul para Electivos
+                borderColor: "rgba(54, 162, 235, 1)",
+                borderWidth: 1
+            },
+            {
+                label: 'Cantidad de Proyectos',
+                data: [61, 23, 87, 101, 13, 49], 
+                backgroundColor: "rgba(241, 142, 45, 0.75)", // Color Naranja para Tesis/Proyectos
+                borderColor: "rgba(241, 142, 45, 1)",
+                borderWidth: 1
+            }
+        ]
     },
     options: {
         responsive: true,
@@ -183,6 +143,7 @@ new Chart(document.getElementById("barras"), {
         },
         plugins: {
             legend: {
+                display: true,
                 position: 'top',
                 labels: {
                     font: { family: "'Georama', sans-serif", size: 11 }
@@ -190,7 +151,7 @@ new Chart(document.getElementById("barras"), {
             },
             title: {
                 display: true,
-                text: 'Comparativa de Proyectos por Grupos Temáticos',
+                text: 'Relación entre Oferta de Electivos y Decisiones de Proyectos de Título',
                 font: { family: "'Georama', sans-serif", size: 14, weight: "600" }
             }
         }
