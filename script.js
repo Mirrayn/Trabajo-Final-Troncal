@@ -70,7 +70,7 @@ new Chart(document.getElementById("dispersion"), {
               },
             title: {
                 display: true,
-                text: 'Distribución Original de Asignaciones (Total: 148 Cupos)',
+                text: 'Distribución Original de Asignaciones (Total: 148 Electivos)',
                 font: { family: "'Georama', sans-serif", size: 14, weight: "600" }
             },
             tooltip: {
