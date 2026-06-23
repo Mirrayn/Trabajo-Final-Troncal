@@ -84,7 +84,6 @@ new Chart(document.getElementById("dispersion"), {
                 padding: 10,
                 callbacks: {
                     label: function (context) {
-                        // Calcula la diferencia real de la barra flotante para mostrar el valor neto correcto
                         const rango = context.raw;
                         const valorNeto = rango[1] - rango[0];
                         return ` ${context.label}: ${valorNeto} cupos`;
