@@ -22,7 +22,7 @@ new Chart(document.getElementById("dispersion"), {
             "Pensamiento Crítico e Investigación Proyectual"
         ],
         datasets: [{
-            label: 'Cupos / Asignaciones',
+            label: 'Cantidad de electivos / Asignaciones',
             data: [
                 [0, 9], [0, 10], [0, 7], [0, 9], [0, 9], [0, 10], 
                 [0, 8], [0, 8],  [0, 8], [0, 8], [0, 9], [0, 7], 
