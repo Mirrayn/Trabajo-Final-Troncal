@@ -86,7 +86,7 @@ new Chart(document.getElementById("dispersion"), {
                     label: function (context) {
                         const rango = context.raw;
                         const valorNeto = rango[1] - rango[0];
-                        return ` ${context.label}: ${valorNeto} cupos`;
+                        return ` ${context.label}: ${valorNeto} electivos`;
                     }
                 }
             }
