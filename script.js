@@ -1,5 +1,5 @@
 new Chart(document.getElementById("dispersion"), {
-    type: 'pie',
+    type: 'bar',
     data: {
         labels: [
             "Territorio, Ciudadanía y Hábitat Sostenible",
@@ -22,8 +22,12 @@ new Chart(document.getElementById("dispersion"), {
             "Pensamiento Crítico e Investigación Proyectual"
         ],
         datasets: [{
-            label: 'Cupos/Asignaciones Mapeadas',
-            data: [9, 10, 7, 9, 9, 10, 8, 8, 8, 8, 9, 7, 9, 7, 6, 9, 6, 7], // Total 148 jeje
+            label: 'Cupos / Asignaciones',
+            data: [
+                [0, 9], [0, 10], [0, 7], [0, 9], [0, 9], [0, 10], 
+                [0, 8], [0, 8],  [0, 8], [0, 8], [0, 9], [0, 7], 
+                [0, 9], [0, 7],  [0, 6], [0, 9], [0, 6], [0, 7]
+            ], 
             backgroundColor: [
                 "rgba(241, 142, 45, 0.75)",
                 "rgba(54, 162, 235, 0.75)",
@@ -49,13 +53,24 @@ new Chart(document.getElementById("dispersion"), {
     },
     options: {
         responsive: true,
+        indexAxis: 'y', 
+        scales: {
+            x: {
+                beginAtZero: true,
+                ticks: { font: { family: "'Georama', sans-serif", size: 11 } }
+            },
+            y: {
+                ticks: { font: { family: "'Georama', sans-serif", size: 11 } }
+            }
+        },
         plugins: {
             legend: {
-                display: false 
-            },
+                position: 'top',
+                labels: { font: { family: "'Georama', sans-serif", size: 11 } }
+              },
             title: {
                 display: true,
-                text: 'Distribución Original de Asignaciones (Total: 148)',
+                text: 'Distribución Original de Asignaciones (Total: 148 Cupos)',
                 font: { family: "'Georama', sans-serif", size: 14, weight: "600" }
             },
             tooltip: {
@@ -69,8 +84,10 @@ new Chart(document.getElementById("dispersion"), {
                 padding: 10,
                 callbacks: {
                     label: function (context) {
-                        const valor = context.raw;
-                        return ` ${context.label}: ${valor} cupos`;
+                        // Calcula la diferencia real de la barra flotante para mostrar el valor neto correcto
+                        const rango = context.raw;
+                        const valorNeto = rango[1] - rango[0];
+                        return ` ${context.label}: ${valorNeto} cupos`;
                     }
                 }
             }
